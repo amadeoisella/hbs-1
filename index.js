@@ -21,5 +21,3 @@ app.use("/auth", require("./routes/auth"));
 
 const PORT = process.env.PORT || 8080;
 app.listen(PORT, () => console.log(`Server run http://localhost:${PORT}`));
-
-// 04:10
